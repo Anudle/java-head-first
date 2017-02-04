@@ -7,7 +7,7 @@ public class Pond implements Serializable{
     try {
       FileOutputStream fs = new FileOutputStream("Pond.ser");
       ObjectOutputStream os = new ObjectOutputStream(fs);
-
+      System.out,println("hi")
       os.writeObject(myPond);
       os.close();
     }
