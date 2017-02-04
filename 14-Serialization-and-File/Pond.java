@@ -10,6 +10,7 @@ public class Pond implements Serializable{
       System.out,println("hi")
       os.writeObject(myPond);
       os.close();
+      System.out.println("hello world")
     }
     catch(Exception ex){
       ex.printStackTrace();
